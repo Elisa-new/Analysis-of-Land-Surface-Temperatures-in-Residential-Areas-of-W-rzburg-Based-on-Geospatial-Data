@@ -1,1 +1,1 @@
-# Analysis-of-Land-Surface-Temperatures-in-Residential-Areas-of-W-rzburg-Based-on-Geospatial-Data
+# wuerzburg-lst-analysis
