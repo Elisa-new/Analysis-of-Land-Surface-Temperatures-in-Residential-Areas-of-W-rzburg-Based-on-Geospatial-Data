@@ -1,16 +1,37 @@
 # Bachelorarbeit_LST_Wue
 
-Dieses Repositorium beinhaltet die Codes zum Methodik Teil der Bachelorarbeit "Analyse der Landoberflächentemperatur in Würzburgs Wohngebieten anhand von Geodaten: Neu- und Bestandsgebiete im Vergleich". 
+# Analyse der Landoberflächentemperatur in Würzburgs Wohngebieten anhand von Geodaten: Neu- und Bestandsgebiete im Vergleich
 
-Die Notebooks sollten in der unten angeführten Reihnfolge ausgeführt werden. Die spezifischen Daten müssen davor heruntergeladen und in eine Ordnersturktur gebracht werden.
+Dieses Repository enthält die im Rahmen der Bachelorarbeit verwendeten Jupyter Notebooks sowie ergänzende Dateien zur Reproduzierbarkeit der Methodik.
 
-Das Notebook „GHSL“ bezieht sich auf die Identifikation der Neubaugebiete mittels des GHSL und beinhaltet die Beschreibung der Untersuchungsgebiete anhand der bebauten Fläche.
+Die Notebooks sollten in der unten aufgeführten Reihenfolge ausgeführt werden. Die jeweiligen Datensätze müssen zuvor von den in der Arbeit beschriebenen Quellen heruntergeladen und in einer entsprechenden Ordnerstruktur abgelegt werden.
 
-Im Notebook „Beschreibung“ findet sich der Code zur Auswertung des DGM1, LoD2 und ALKIS Datensatzes, welche zur Charakterisierung der Untersuchungsgebiete dienten.
+## Reihenfolge der Notebooks
 
-Das „Preproccesing“ Notebook beschäftigt sich mit der Vorverarbeitung der Landsat-Daten: es bereit diese für die indikatorspezifischen Auswertung von „NDVI“, „LST“ und „Albedo“ vor. 
+### 1. GHSL
 
-Die in QGIS manuell digitalisierten Umrisse der Bebauungspläne sind hier als Shapefiles unter "Shapefiles_Gebiete" gespeichert.
+Das Notebook **„GHSL“** dient der Identifikation der Untersuchungsgebiete anhand des Global Human Settlement Layer (GHSL). Zudem enthält es die Beschreibung der Untersuchungsgebiete auf Basis der bebauten Fläche.
+
+### 2. Beschreibung
+
+Im Notebook **„Beschreibung“** befindet sich der Code zur Auswertung der Datensätze DGM1, LoD2 und ALKIS. Die Ergebnisse dienen der Charakterisierung der Untersuchungsgebiete.
+
+### 3. Preprocessing
+
+Das Notebook **„Preprocessing“** umfasst die Vorverarbeitung der Landsat-Daten und bereitet diese für die weiteren Analysen vor.
+
+### 4. NDVI, LST und Albedo
+
+Die Notebooks **„NDVI“**, **„LST“** und **„Albedo“** enthalten die indikatorspezifischen Auswertungsschritte.
+
+## Shapefiles der Untersuchungsgebiete
+
+Die in QGIS manuell digitalisierten Umrisse der Bebauungspläne sind im Ordner **„Shapefiles_Gebiete“** gespeichert.
+
+## Datenquellen
+
+Die verwendeten Datensätze werden in der Bachelorarbeit detailliert beschrieben. Aufgrund möglicher Lizenz- und Nutzungsbeschränkungen sind die Originaldatensätze nicht Bestandteil dieses Repositories und müssen eigenständig von den jeweiligen Datenanbietern bezogen werden.
+
 
 
 
