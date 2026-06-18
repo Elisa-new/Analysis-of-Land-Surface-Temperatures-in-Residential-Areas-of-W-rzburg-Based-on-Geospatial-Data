@@ -1,0 +1,127 @@
+Colab_Notebooks/
+│
+├── ALKIS/                                  [Input: ALKIS Nutzung_Wue BayernAtlas]
+│   └── ALKIS_Stadt_Wue/						
+│       └── ALKIS_Stadt_Wue.shp
+│
+├── DGM/                                    [Input: DGM1 BayernAtlas]
+│   ├── *.tif	                       
+│   ├── 568_5513
+│   └── 568_5514
+│   └── 569_5507
+│   └── 569_5513
+│   └── 569_5514
+│   └── 570_5507
+│   └── 570_5517
+│   └── 570_5518
+│   └── 571_5518
+│   └── 570_5516
+│   └── 570_5515
+│   └── 569_5515
+│   └── 571_5517
+│   └── 570_5508
+│   └── 569_5508
+│
+├── LoD2/                                   [Input:LoD2 BayernAtlas] 
+│   └── original/
+│	 	├── *.gml
+│  		└── 570_5518
+│   	└── 570_5516
+│  	 	└── 570_5514
+│   	└── 568_5514
+│   	└── 568_5512
+│   	└── 568_5506
+│   	└── 570_5506
+│  		└── 570_5508
+│   	└── 568_5508
+│
+├── Landsat/
+│   │
+│   ├── raw/                                [Input: alle Landsat verwendeten Bänder für die fünf Zeitpunkte]
+│   │   ├── LC09_*.TIF
+│   │   └── ...
+│   │
+│   ├── Clipped/                            [erstellt] 
+│   │   ├── *_SR_B2_clip.tif
+│   │   ├── *_SR_B4_clip.tif
+│   │   ├── *_SR_B5_clip.tif
+│   │   ├── *_SR_B6_clip.tif
+│   │   ├── *_SR_B7_clip.tif
+│   │   ├── *_ST_B10_clip.tif
+│   │   └── *_CLEAR_MASK.tif
+│   │
+│   └── Processed/                          [erstellt]
+│
+├── GHSL/                                   [Input: GHSL BUILT-S & V]
+│   │
+│   ├── GHS_BUILT_S_E2005_....tif
+│   ├── GHS_BUILT_S_E2015_....tif
+│   ├── GHS_BUILT_S_E2025_....tif
+│   ├── GHS_BUILT_V_E2005_....tif
+│   ├── GHS_BUILT_V_E2015_....tif
+│   └── GHS_BUILT_V_E2025_....tif
+│
+│   ├── diff_s_2025_2005.tif               [erstellt]
+│   ├── diff_s_2025_2015.tif               [erstellt]
+│   ├── diff_v_2025_2005.tif               [erstellt]
+│   └── diff_v_2025_2015.tif               [erstellt]
+│
+│   ├── Clipped/                           [erstellt]
+│   │   └── *_clip.tif
+│   │
+│   ├── Clipped_Wohnbau/                   [erstellt]
+│   │   ├── diff_s_2025_2005_clip_clip_Wohnbau.tif
+│   │   ├── diff_s_2025_2015_clip_clip_Wohnbau.tif
+│   │   ├── diff_v_2025_2005_clip_clip_Wohnbau.tif
+│   │   └── diff_v_2025_2015_clip_clip_Wohnbau.tif
+│   │
+│   └── Grafiken/                           [erstellt]
+│       ├── GHSL_Surface_Volume_Change.png
+│       ├── GHSL_Histogramme_Jenks.png
+│       └── GHSL_Schwellenwert_1500.png
+│
+├── Shapefiles_Gebiete/                     [Input: s.h. Repository]
+│   │
+│   ├── Rottenbauer/
+│   │   ├── Shape_Rottenbauer_Nord.shp
+│   │   └── Shape_Rottenbauer_alt.shp
+│   │
+│   ├── Lengfeld/
+│   │   ├── Shape_Lengfeld.shp
+│   │   └── Shape_Lengfeld_alt.shp
+│   │
+│   ├── Hubland/
+│   │   ├── Shape_Hubland_Gruenflaeche.shp
+│   │   ├── Shape_Hublandterrassen.shp
+│   │   ├── Shape_Quartier_I.shp
+│   │   ├── Shape_Quartier_II_plus_BBP_70.shp
+│   │   └── Shape_Quartier_III.shp
+│   │
+│   └── Gartenstadt/
+│       └── Shape_Gartenstadt.shp
+│
+├── NDVI/                                   [erstellt]
+│   ├── NDVI_MEAN.tif
+│   └── Szenen/
+│       └── *_NDVI.tif
+│
+├── LST/                                    [erstellt]
+│   ├── LST_MEAN.tif
+│   └── Szenen/
+│       └── *_LST_Celsius.tif
+│
+├── Albedo/                                 [erstellt]
+│   ├── Albedo_MEAN.tif
+│   └── Szenen/
+│       └── *_Albedo.tif
+│
+└── Grafiken/                               [erstellt]
+    ├── Gebiete
+    │	 └── ...
+    ├── NDVI_Auswertung.png
+    ├── NDVI_Paarvergleich_Karten.png
+    ├── LST_Auswertung.png
+    ├── LST_Paarvergleich_Karten.png
+    ├── LST_Max_Paarvergleich_Karten.png
+    ├── Albedo_Auswertung.png
+    └── Albedo_Paarvergleich_Karten.png
