@@ -4,7 +4,7 @@
 
 Dieses Repository enthält die im Rahmen der Bachelorarbeit verwendeten Jupyter Notebooks sowie ergänzende Dateien zur Reproduzierbarkeit der Methodik.
 
-Die Notebooks sollten in der unten aufgeführten Reihenfolge ausgeführt werden. Die jeweiligen Datensätze müssen zuvor von den in der Arbeit beschriebenen Quellen heruntergeladen und in einer entsprechenden Ordnerstruktur (s.h. "Colab_Notebook_Pfade") abgelegt werden. 
+Die Notebooks sollten in der unten aufgeführten Reihenfolge ausgeführt werden. Die jeweiligen Datensätze müssen zuvor von den in der Arbeit beschriebenen Quellen heruntergeladen und in einer entsprechenden Ordnerstruktur (s.h. "Colab_Notebooks_Pfade") abgelegt werden. 
 ## Reihenfolge der Notebooks
 
 ### 1. GHSL
